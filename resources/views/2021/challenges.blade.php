@@ -50,6 +50,7 @@
                     <section class="grid grid-cols-1 gap-6 md:grid-cols-3">
 
 
+                        @include('2021._thumbnail', ['slug' => 'coding-music'])
                         @include('2021._thumbnail', ['slug' => 'chatbot'])
                         @include('2021._thumbnail', ['slug' => 'paper-circuit'])
                         @include('2021._thumbnail', ['slug' => 'dance'])

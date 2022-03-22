@@ -556,6 +556,10 @@ Route::prefix('2021')->group(function () {
         'challenges.dance'
     );
     Route::view(
+        '/challenges/coding-music',
+        '2021.challenges.coding-music'
+    )->name('challenges.coding-music');
+    Route::view(
         '/challenges/compose-song',
         '2021.challenges.compose-song'
     )->name('challenges.compose-song');

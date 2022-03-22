@@ -22,7 +22,8 @@ return [
         'beginner' => 'Beginner',
         'intermediate' => 'Intermediate',
         'advanced' => 'Advanced',
-        '1-hour' => '1 hour'
+        '1-hour' => '1 hour',
+        'additional-materials' => 'Additional materials'
     ],
     'main' => [
         'During EU Code Week, 9 - 24 October 2021, we invite you to do one or more of the EU Code Week challenges.',

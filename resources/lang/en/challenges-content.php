@@ -459,5 +459,44 @@ return [
             'This tutorial is available in over 25 languages'
         ],
         'more' => ['']
+    ],
+    'coding-music' => [
+        'title' => 'Remixing songs with coding',
+        'author' => 'EU Code Week Team',
+        'purposes' => [
+            'To enable students to be able to set up/operate Sonic Pi.',
+            'To learn and explore the functions of Sonic Pi.',
+            'To educate on how a computer can be used as a musical instrument. '
+        ],
+        'description' =>
+        [
+            'Create a well-known song using Sonic Pi, which is free, open-source software that uses lines of code to express music. This task allows students to get creative by remixing the song which they have chosen or created. This introduces students to advanced elements of Sonic Pi, so requires a basic understanding of coding and computational thinking and of musical composition. If you are looking for a more basic lesson plan with Sonic Pi, have a look at our Learning Bit tutorial which includes a lesson plans for various skill levels. For more teaching tips and recommendations on bringing coding and digital skills to your classroom, check out our',
+            'podcast series'
+        ],
+'duration' => '1x 2-hour lesson',
+        'instructions' => [
+            'To get familiar with the basic functions of Sonic Pi, check out our lesson plan “Music is coding” in the EU CodeWeek Learning Bit',
+            'Coding for All Subjects',
+            'To get started, students should re-create (or even create) a song using Sonic Pi. For example, the first line of “Mary Had a Little Lamb” should look like this in Sonic Pi:',
+            'Once your students have re-created a song of their choice, introduce them to the other elements of Sonic Pi which will allow them to remix their songs. Encourage them to explore the different functions.',
+            'They can add drumbeats as a backbeat for their song. This uses the “sample” function rather than “play. For example: ',
+            'When sampling, students can also change the tempo by altering the value after “use_bpm”. Tip: When writing the sample name, they can browse the available samples with the auto-complete feature.',
+            'Overlapping backbeats can make for a more interesting remix, so make sure to encourage students to experiment with the length of the “sleep” function and make use of “live_loop”.',
+            'Use the “use_transpose” function to change the pitch up and down. This can be randomised by experimenting with the “if, else” function to add conditions to when or why the pitch changes at certain points in the song.',
+            'For an example of this in action, see below:',
+            'Prepare a folder or platform where the students’ remixes can be shared. This way, students can provide feedback to their peers’ creations, or they can even vote on the best remix!',
+        ],
+        'example' => '',
+        'materials' => [
+            'RaspberryPi',
+            'OR a computer/laptop',
+        ],
+        'more' => [
+            'Sonic Pi offers',
+            'tutorials',
+            'on the various things which you can achieve with the program',
+            'This website',
+            'offers an extensive database with free sheet music on hundreds of songs.'
+        ]
     ]
 ];
